@@ -1,7 +1,7 @@
 $ = function (document) {
   var element = Element.prototype,
       nodeList = NodeList.prototype,
-      foreach = [].forEach;
+      forEach = [].forEach;
 
   element.on = function () {
     element.addEventListener.apply(this, arguments);
